@@ -1,0 +1,79 @@
+$primary_color: blue;
+$primary_hover_color: rgb(157, 157, 241);
+$success_color: green;
+$success_hover_color: rgb(159, 240, 159);
+$title_color: black;
+$bg_color: wheat;
+
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background-color: $bg_color;
+}
+
+.content{
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+
+    h1{
+        color: $primary_hover_color;
+    }
+    h4{
+        color: grey;
+    }
+    table{
+        width: 100%;
+        margin-top: 20px;
+        border-collapse: collapse;
+
+        th,td{
+            padding: 10px;
+            border: 1px solid rgb(85, 84, 84);
+            th{
+                background-color: rgb(85, 84, 84);
+                color: black;
+            }
+        }
+    }
+}
+a{
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: $primary_color;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3 ease;
+
+    &:hover{
+        background-color: $primary_hover_color;
+    }
+}
+
+    input{
+        padding: 10px;
+        margin: 5px;
+        border: solid 1px;
+        border-radius: 5px;
+    }
+
+    #btn_add{
+        background-color: $success_color;
+        color: white;
+        cursor: pointer;
+        &:hover{
+            background-color: $success_hover_color;
+        }
+    }
+
+
+
+
