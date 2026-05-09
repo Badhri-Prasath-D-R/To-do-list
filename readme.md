@@ -4,12 +4,6 @@ A full-stack task management web application built with **Python**, **Flask**, a
 
 ---
 
-## 📸 Preview
-
-> *(Add a screenshot of the app here — highly recommended for hirer appeal!)*
-
----
-
 ## ✨ Features
 
 - **Add Tasks** — Submit new tasks via a simple form on the home page
