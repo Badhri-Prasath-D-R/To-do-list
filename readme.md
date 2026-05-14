@@ -71,7 +71,7 @@ Open your browser and visit `http://127.0.0.1:5000/`
 
 ---
 
-## 🗄️ Database Model
+## 🗄️ Database Models
 
 The `MyTask` model stores the following fields:
 
