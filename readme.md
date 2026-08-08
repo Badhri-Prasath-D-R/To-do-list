@@ -1,10 +1,10 @@
-# ✅ To-Do List App — Built with Flask, SQLite & SCSS
+# To-Do List App — Built with Flask, SQLite & SCSS
 
 A full-stack task management web application built with **Python**, **Flask**, and **SQLite**. Features a clean, styled UI with **SCSS** and supports creating, editing, and deleting tasks — all persisted in a database.
 
 ---
 
-## ✨ Features
+## Features
 
 - **Add Tasks** — Submit new tasks via a simple form on the home page
 - **Edit Tasks** — Update existing task content through a dedicated edit page
@@ -16,7 +16,7 @@ A full-stack task management web application built with **Python**, **Flask**, a
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -30,7 +30,7 @@ A full-stack task management web application built with **Python**, **Flask**, a
 
 ---
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.x
@@ -59,7 +59,7 @@ Open your browser and visit `http://127.0.0.1:5000/`
 
 ---
 
-## 🗺️ App Routes
+## App Routes
 
 | Method | Route | Description |
 |---|---|---|
@@ -71,7 +71,7 @@ Open your browser and visit `http://127.0.0.1:5000/`
 
 ---
 
-## 🗄️ Database Models
+## Database Models
 
 The `MyTask` model stores the following fields:
 
@@ -86,7 +86,7 @@ The `database.db` SQLite file is auto-generated in the `instance/` folder on fir
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 To-do-list/
@@ -103,7 +103,7 @@ To-do-list/
 
 ---
 
-## ☁️ Deployment
+## Deployment
 
 The app is configured for deployment on platforms like **Render** or **Railway**. The port is dynamically read from the `PORT` environment variable:
 
